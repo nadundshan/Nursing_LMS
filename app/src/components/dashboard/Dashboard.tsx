@@ -58,7 +58,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       color: 'bg-green-500 hover:bg-green-600'
     },
     { 
-      title: 'Practice Simulations', 
+      title: 'Simulations', 
       description: 'Improve skills with virtual practice',
       icon: Monitor, 
       action: () => onNavigate('simulations'),
