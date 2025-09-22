@@ -65,7 +65,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       color: 'bg-purple-500 hover:bg-purple-600'
     },
     { 
-      title: 'View Progress', 
+      title: 'Progress', 
       description: 'Track your learning journey',
       icon: TrendingUp, 
       action: () => onNavigate('progress'),
