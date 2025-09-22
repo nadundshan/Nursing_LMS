@@ -23,7 +23,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   user,
   courses,
   assessments,
-  simulationResults,
+
   onNavigate
 }) => {
   const userCourses = user.role === 'student' 
